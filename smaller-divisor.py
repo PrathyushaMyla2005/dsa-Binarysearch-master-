@@ -140,7 +140,7 @@ def smallestDivisor_optimal(nums, threshold):
 
         if total <= threshold:
             high = mid   # try smaller divisor
-        else:
+        else: 
             low = mid + 1  # need larger divisor
 
     return low  # smallest valid divisor
